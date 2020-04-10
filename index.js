@@ -18,7 +18,7 @@ function handleSubmit() {
      
      });
    
-     //Same function as above, with the exception that the even that is being 
+     //Same function as above, with the exception that the event that is being 
      //listened for is a press of the enter key rather than a click.
     $("button[type='submit']").keypress(function(event) {
      event.preventDefault();
